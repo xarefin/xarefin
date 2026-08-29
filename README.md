@@ -1,1 +1,8 @@
-<h1 align="center">Hi 👋, I'm Arefin</h1> <h3 align="center"></h3> <p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Building+cool+things;Always+learning+something+new;Open+to+collaboration" alt="Typing SVG" /> </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="yourusername" />
+
+---
+
+### 🧠 How to decode
+
+**With `perl` (on Linux/macOS):**
+```bash
+echo '01001000 01001001 00101100 00100000 01101001 01101101 00100000 01100001 01110010 01100101 01100110 01101001 01101110' | tr -d ' ' | perl -lpe '$_=pack("B*", $_)'
